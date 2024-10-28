@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+main {
+  background-color: #f0f0f0;
+}
+
+main * {
+  background-color: inherit;
+}
+
+hr {
+  margin: 10px auto;
+  border-top: 1px solid #ccc;
+  width: 70%;
+}
+
+li {
+  padding: 8px 0;
+}
+
+ol,
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
